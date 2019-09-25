@@ -11,6 +11,13 @@ export const Text: React.FC = () => {
           dispatch({ type: "add", text: "..." });
         }}
       >
+        <button
+          onClick={() => {
+            dispatch({ type: "remove", idx: 1 });
+          }}
+        >
+          Удалить
+        </button>
         Добавить тодо
       </button>
     </div>
