@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import { Hello } from "./components/hello";
-import { tsTypeReference, tsFunctionType } from "@babel/types";
 import { Text } from "./components/text";
 import Counter from "./components/counter";
 

@@ -17,7 +17,7 @@ interface CounterProps {
 const Counter = ({ increment, decrement, count }: CounterProps) => {
   return (
     <div>
-      <h1>Counter: {count.count}</h1>
+      <h1>Counter: {count}</h1>
       <button onClick={increment}>+</button>
       <button onClick={decrement}>-</button>
     </div>
